@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href=https://exam-china.github.io/ && git add ./docs",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:exam-china.github.io": "node dist/exam-china.github.io/server/server.mjs"
